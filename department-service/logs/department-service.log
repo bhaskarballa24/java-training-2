@@ -1,0 +1,53 @@
+2026-11-08T12:42:43.938+05:30  INFO 5304 --- [department-service] [main] c.t.d.DepartmentServiceApplication       : Starting DepartmentServiceApplication using Java 21.0.13 with PID 5304 (F:\Bhaskar\Java Training\department-service\target\classes started by GANESH DURGA in F:\Bhaskar\Java Training\department-service)
+2026-11-08T12:42:43.953+05:30 DEBUG 5304 --- [department-service] [main] c.t.d.DepartmentServiceApplication       : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-08T12:42:43.957+05:30  INFO 5304 --- [department-service] [main] c.t.d.DepartmentServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-11-08T12:42:46.364+05:30  INFO 5304 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-08T12:42:46.543+05:30  INFO 5304 --- [department-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
+2026-11-08T12:42:47.847+05:30  INFO 5304 --- [department-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-11-08T12:42:47.878+05:30  INFO 5304 --- [department-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-08T12:42:47.879+05:30  INFO 5304 --- [department-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-08T12:42:47.995+05:30  INFO 5304 --- [department-service] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3909 ms
+2026-11-08T12:42:48.458+05:30  INFO 5304 --- [department-service] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-08T12:42:48.578+05:30  INFO 5304 --- [department-service] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-08T12:42:49.578+05:30  INFO 5304 --- [department-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-08T12:42:49.652+05:30  INFO 5304 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-08T12:42:51.194+05:30  INFO 5304 --- [department-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6785df10
+2026-11-08T12:42:51.197+05:30  INFO 5304 --- [department-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-08T12:42:51.488+05:30  WARN 5304 --- [department-service] [main] org.hibernate.orm.jdbc                   : HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-11-08T12:42:51.497+05:30  INFO 5304 --- [department-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@//localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.3
+	Default catalog/schema: undefined/DEPARTMENT_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-08T12:42:52.716+05:30  INFO 5304 --- [department-service] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-08T12:42:53.942+05:30  INFO 5304 --- [department-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-08T12:42:54.020+05:30  INFO 5304 --- [department-service] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-08T12:42:54.568+05:30  INFO 5304 --- [department-service] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-11-08T12:42:54.572+05:30  INFO 5304 --- [department-service] [main] c.t.d.DepartmentServiceApplication       : Started DepartmentServiceApplication in 12.111 seconds (process running for 13.985)
+2026-11-08T12:43:31.391+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-08T12:43:31.396+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-08T12:43:31.410+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2026-11-08T12:43:31.691+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-2] c.t.d.service.DepartmentServiceImpl      : Creating department: IT
+2026-11-08T12:43:32.534+05:30  WARN 5304 --- [department-service] [http-nio-8081-exec-2] c.t.d.service.DepartmentServiceImpl      : Duplicate department detected: IT
+2026-11-08T12:43:45.472+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-6] c.t.d.service.DepartmentServiceImpl      : Creating department: IT
+2026-11-08T12:43:45.479+05:30  WARN 5304 --- [department-service] [http-nio-8081-exec-6] c.t.d.service.DepartmentServiceImpl      : Duplicate department detected: IT
+2026-11-08T12:43:53.848+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-8] c.t.d.service.DepartmentServiceImpl      : Creating department: IT
+2026-11-08T12:43:53.854+05:30  WARN 5304 --- [department-service] [http-nio-8081-exec-8] c.t.d.service.DepartmentServiceImpl      : Duplicate department detected: IT
+2026-11-08T12:43:56.374+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-1] c.t.d.service.DepartmentServiceImpl      : Creating department: IT
+2026-11-08T12:43:56.374+05:30  WARN 5304 --- [department-service] [http-nio-8081-exec-1] c.t.d.service.DepartmentServiceImpl      : Duplicate department detected: IT
+2026-11-08T12:44:13.760+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-7] c.t.d.service.DepartmentServiceImpl      : Creating department: SALES
+2026-11-08T12:44:14.173+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-7] c.t.d.service.DepartmentServiceImpl      : Department created successfully with ID: 3
+2026-11-08T12:44:47.836+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-3] c.t.d.service.DepartmentServiceImpl      : Creating department: HR
+2026-11-08T12:44:47.858+05:30  INFO 5304 --- [department-service] [http-nio-8081-exec-3] c.t.d.service.DepartmentServiceImpl      : Department created successfully with ID: 4
+2026-11-08T13:00:02.831+05:30  INFO 5304 --- [department-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-08T13:00:02.869+05:30  INFO 5304 --- [department-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-08T13:00:02.911+05:30  INFO 5304 --- [department-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-08T13:00:02.949+05:30  INFO 5304 --- [department-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-08T13:00:03.012+05:30  INFO 5304 --- [department-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
